@@ -4,72 +4,76 @@
  
  pip install -r requirements.txt
  
-  
- ###################    Heroku Hosted    ##########################
+ ##  GITHUB URL
  
- #Command to makemigrations in db
+ https://github.com/arbyadav/DjangoREST_Fullthrottle.git
+ 
+ 
+ ###################    HEROKU HOSTED (PaaS)    ##########################
+ 
+ ## Command to makemigrations in db
  
  heroku run python manage.py makemigrations API
  
- #Command to migrate 
+ ## Command to migrate 
  
  heroku run python manage.py migrate
  
- #Command to create superuser
+ ## Command to create superuser
  
  heroku run python manage.py createsuperuser
  
- #Command to create dummy users in db
+ ## Command to create dummy users in db
  
  heroku run python manage.py seed --createusers 5
  
- #To obtain dummy user data we can use dumpdata
+ ## To obtain dummy user data we can also use dumpdata & loaddata fixtures
  
  heroku run python manage.py dumpdata API.usersd > data.json
  
 
- #Application URL
+ ## Application URL
  
  https://djangoapp-fullthrottle.herokuapp.com/
  
- #Admin URL
+ ## Admin URL
  
  https://djangoapp-fullthrottle.herokuapp.com/admin/
  
- #API URL's
+ ## API URL's
  
- #Token Generation 
+ ## Token Generation - POST Method
  
  https://djangoapp-fullthrottle.herokuapp.com/api/auth/
  
- #GET, POST Methods Supported
+ ## GET, POST Methods Supported
  
  https://djangoapp-fullthrottle.herokuapp.com/api/users_list/
  
- #GET, PUT, DELETE Methods Supported
+ ## GET, PUT, DELETE Methods Supported
  
  https://djangoapp-fullthrottle.herokuapp.com/api/users_list/1/
  
  
  ###################     LOCAL SERVER     ##########################
 
-#Command to makemigrations in db
+ ## Command to makemigrations in db
  
  python manage.py makemigrations API
  
- #Command to migrate 
+ ## Command to migrate 
  
  python manage.py migrate
  
- #Command to create superuser
+ ## Command to create superuser
  
  python manage.py createsuperuser
  
- #Command to create dummy users in db
+ ## Command to create dummy users in db
  
  python manage.py seed --createusers 5
  
- #To obtain dummy user data we can use dumpdata
+ ## To obtain dummy user data we can also use dumpdata & loaddata fixtures
  
  python manage.py dumpdata API.usersd > data.json
  
@@ -78,25 +82,24 @@
  
  http://127.0.0.1:8000/
  
- #Admin URL
+ ## Admin URL
  
  http://127.0.0.1:8000/admin/
  
- #API URL's
+ ## API URL's
  
- #Token Generation  - POST
+ ## Token Generation  - POST
  
  http://127.0.0.1:8000/api/auth/
  
- #GET, POST Methods Supported
+ ## GET, POST Methods Supported
  
  http://127.0.0.1:8000/api/users_list/
  
- #GET, PUT, DELETE Methods Supported
+ ## GET, PUT, DELETE Methods Supported
  
  http://127.0.0.1:8000//api/users_list/1/
  
- 
-  #Data
+ ## Data
  
  {"id":1,"name":"Michael Simpson MD","email":"shess@parker.net","address":"086 Alexander Common Suite 777\nJacksonborough, TN 79147","phone_number":"0350374006897"}
