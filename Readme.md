@@ -4,12 +4,15 @@
  
  pip install -r requirements.txt
  
+ ----------------------------------------------------------------------------
+  
  ##  GITHUB URL
  
  https://github.com/arbyadav/DjangoREST_Fullthrottle.git
  
+ ----------------------------------------------------------------------------
  
- ###################    HEROKU HOSTED (PaaS)    ##########################
+ ##  HEROKU HOSTED (PaaS) 
  
  ## Command to makemigrations in db
  
@@ -54,8 +57,9 @@
  
  https://djangoapp-fullthrottle.herokuapp.com/api/users_list/1/
  
+ ---------------------------------------------------------------------------------
  
- ###################     LOCAL SERVER     ##########################
+ ## LOCAL SERVER
 
  ## Command to makemigrations in db
  
