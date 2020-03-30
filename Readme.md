@@ -10,10 +10,6 @@
  
  https://github.com/arbyadav/DjangoREST_Fullthrottle.git
  
- ## AWS ELASTICBEANSTALK
- 
- http://djangoapi-prod.eba-frunpn22.ap-south-1.elasticbeanstalk.com/ 
- 
  ----------------------------------------------------------------------------
  
  ##  HEROKU HOSTED (PaaS) 
