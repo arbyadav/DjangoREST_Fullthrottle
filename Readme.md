@@ -5,7 +5,7 @@
  pip install -r requirements.txt
  
   
- ###################  Heroku Hosted  ##########################
+ ###################    Heroku Hosted    ##########################
  
  #Command to makemigrations in db
  
@@ -51,7 +51,7 @@
  https://djangoapp-fullthrottle.herokuapp.com/api/users_list/1/
  
  
- ###################    LOCAL SERVER    ##########################
+ ###################     LOCAL SERVER     ##########################
 
 #Command to makemigrations in db
  
